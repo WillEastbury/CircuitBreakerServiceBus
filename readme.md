@@ -1,3 +1,5 @@
+# A sample of implementing an Http Watchdog to circuit break over a Service Bus consumer when the target of the messages on the queue is down or degraded.
+
 Usage - create a class and override the circuit break methods, a default implementation is given in BaseHttpCircuitOptions 
 --------------------------------------------------------------------------------------------------------------------------
 
