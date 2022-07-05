@@ -6,8 +6,6 @@ namespace CircuitBreaker.Config
         public string PollingUrl { get; set; }
         public int MaxErrorsPercentage {get;set;}
         public int MaxErrorsTransientPercentage  {get;set;}
-        public int DefinedBoundTimerInSeconds  {get;set;}
-
 
     }
 }
